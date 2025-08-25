@@ -22,6 +22,11 @@ export const metadata: Metadata = {
   description:
     "Professional AI-enabled web application development for business, government, and consumer markets. Founded by experienced AI engineers and ML instructors.",
   generator: "v0.app",
+  icons: {
+    icon: "/favicon.ico",
+    shortcut: "/favicon.ico",
+    apple: "/base2ml-logo.png",
+  },
 }
 
 export default function RootLayout({
