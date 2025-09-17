@@ -1,0 +1,48 @@
+ 🎯 Complete Step-by-Step Example: blog.base2ml.com
+
+  Let's deploy it now:
+
+  1. Deploy the infrastructure:
+
+  cd /Users/christopherlindeman/Desktop/Base2ML/website
+  ./deploy-subdomain.sh blog base2ml.com
+
+  2. Create GitHub repo:
+
+  mkdir ~/blog-base2ml
+  cd ~/blog-base2ml
+  git init
+  # Add your GitHub remote
+  git remote add origin https://github.com/base2ML/blog.git
+
+  3. Set up the project:
+
+  # Copy workflow
+  mkdir -p .github/workflows
+  cp /Users/christopherlindeman/Desktop/Base2ML/website/.github/workflows/deploy.yml .github/workflows/
+
+  # Create Next.js blog project
+  npx create-next-app@latest . --typescript --tailwind --app --no-src-dir
+
+  4. Configure GitHub:
+
+  - Go to repository Settings > Secrets and variables > Actions
+  - Add the values from the deployment output
+
+  5. First deployment:
+
+  git add .
+  git commit -m "Initial blog setup"
+  git push origin main
+
+  Result: https://blog.base2ml.com will be live with automated deployments! 🚀
+
+  ---
+  Summary
+
+  You now have:
+  - ✅ Repeatable infrastructure via CloudFormation
+  - ✅ Automated deployment script for any subdomain
+  - ✅ GitHub Actions template that works everywhere
+  - ✅ Complete documentation and checklists
+  - ✅ Management commands for ongoing operations

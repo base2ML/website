@@ -6,14 +6,14 @@ const milestones = [
     year: "2019",
     title: "The Beginning",
     description:
-      "Founded by Dr. Sarah Chen and Dr. Michael Rodriguez, both former ML professors at Stanford, who saw the gap between academic AI research and practical business applications.",
+      "Founded by Chris Lindeman and Abi Crumb to put all the fun tech ideas to use.",//Michael Rodriguez, both Instructional Associates at Georgia Tech, who saw the gap between academic AI research and practical business applications.",
     icon: Lightbulb,
   },
   {
     year: "2020",
     title: "First Major Client",
     description:
-      "Delivered our first enterprise AI solution for a Fortune 500 company, achieving 40% improvement in operational efficiency through predictive analytics.",
+      "Delivered our first ML solution, achieving 40% improvement in operational efficiency through predictive analytics.",
     icon: Target,
   },
   {
@@ -24,10 +24,10 @@ const milestones = [
     icon: Rocket,
   },
   {
-    year: "2024",
-    title: "Multi-Sector Leader",
+    year: "2025",
+    title: "Multi-Sector Expansion",
     description:
-      "Now serving 50+ clients across business, government, and consumer markets with a team of 12 AI specialists and a track record of transformative results.",
+      "Now serving a portfolio of programs and produccts to clients across business, government, and consumer markets with a team of 4 AI specialists and a track record of transformative results.",
     icon: Calendar,
   },
 ]
