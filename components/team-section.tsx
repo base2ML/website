@@ -5,9 +5,9 @@ import { Linkedin, Mail, Award, BookOpen } from "lucide-react"
 
 const teamMembers = [
   {
-    name: "Chris Lindeman",
+    name: "Chris Cosmo",
     role: "Co-Founder & CTO",
-    title: "Instructional Associate, Georgia Tech",
+    title: "Instructional Associate, ",
     image: "/professional-ai-researcher.png",
     bio: "",
     expertise: ["Deep Learning", "Neural Networks", "Computer Vision", "AI Strategy"],

@@ -6,7 +6,7 @@ const milestones = [
     year: "2019",
     title: "The Beginning",
     description:
-      "Founded by Chris Lindeman and Abi Crumb to put all the fun tech ideas to use.",//Michael Rodriguez, both Instructional Associates at Georgia Tech, who saw the gap between academic AI research and practical business applications.",
+      "Founded by Chris Cosmo and Abi Crumb to put all the fun tech ideas to use.",//Michael Rodriguez, both Instructional Associates at UVA, who saw the gap between academic AI research and practical business applications.",
     icon: Lightbulb,
   },
   {
